@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<div>{{ 'HELLO' | translate:param }}</div>
+<h2>{{ 'HOME.TITLE' | translate }}</h2>
+
+
+<button type="button" (click)="changeLanguage('pt')"> PT </button>
+<button type="button" (click)="changeLanguage('en')"> EN </button>

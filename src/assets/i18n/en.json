@@ -1,0 +1,6 @@
+{
+  "HOME": {
+    "TITLE": "Ola Angular com ngx-translate!"
+  },
+  "HELLO": "Hello {{value}}"
+}
